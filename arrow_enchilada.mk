@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The arrowOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from enchilada device
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-PRODUCT_NAME := lineage_enchilada
+PRODUCT_NAME := arrow_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

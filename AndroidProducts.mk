@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The arrowOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_enchilada.mk
+    $(LOCAL_DIR)/arrow_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_enchilada-user \
-    lineage_enchilada-userdebug \
-    lineage_enchilada-eng
+    arrow_enchilada-user \
+    arrow_enchilada-userdebug \
+    arrow_enchilada-eng
